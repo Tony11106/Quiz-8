@@ -1,0 +1,41 @@
+# Quiz 8
+
+# Tony Maldonado-Perez
+# amaldo36@uic.edu
+
+# I hereby attest that I have adhered to the rules for quizzes and projects as well as UIC's
+# Academic Integrity standards. Signed Anthony Maldonado-Perez
+
+# Question 1
+import numpy as np
+
+
+# a)
+
+M = np.array([[1, 0.76, 0], [-2, 3.1, 9]])
+print(M)
+
+# b)
+
+R = np.random.randint(-5, 5, size=(2,3))
+print(R)
+
+# c)
+
+print(M + 3)
+print(0.5*M-R)
+
+# Question 2
+
+# a)
+# number of bedrooms in the house
+# b)
+# number bathrooms in the house
+# for example a bathroom without a shower could be considered half a bathroom
+# The price of the house can also be a float
+# c)
+#  if the house comes with furniture or not : True/False
+# d)
+#
+# e)
+#
